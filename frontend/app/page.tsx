@@ -2,10 +2,6 @@
 
 import { useState, useEffect } from "react";
 
-export default function Home() {
-  const [posts, setPosts] = useState<Post[]>([]);
-  const [title, setTitle] = useState('');
-  const [content, setContent] = useState('');
 
   useEffect(() => {
     fetch('http://localhost:8000/api/posts/')
