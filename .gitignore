@@ -1,0 +1,23 @@
+# Node.js/Next.js
+node_modules/
+.next/
+out/
+
+# Python/Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+db.sqlite3
+*.log
+
+# OS generated files
+.DS_Store
+*.swp
+
+# Sensitive files
+*.env
+local_settings.py
